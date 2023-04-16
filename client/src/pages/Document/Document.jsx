@@ -16,7 +16,7 @@ const icon = {
 
 const Document = ({ user }) => {
   const { fileId } = useParams();
-  const [item, setItem] = useState(2);
+  const [item, setItem] = useState(1);
   const Component = steps[item];
   const Icon = icon[item];
 
