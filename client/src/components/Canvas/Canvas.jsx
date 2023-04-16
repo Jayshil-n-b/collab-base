@@ -3,7 +3,7 @@ import { useOnDraw } from "../../hooks/DrawHook";
 import { drawLineStandalone } from "../../Utils/drawLine";
 import socketInit from "../../Socket";
 import styles from "./Canvas.module.css";
-const colors = ["#000000", "#00FF00", "#0000FF", "#FF0000"];
+const colors = ["#00FF00", "#0000FF", "#FFFFFF", "#FF0000"];
 
 const canvasStyle = {
   border: "1px solid black",
